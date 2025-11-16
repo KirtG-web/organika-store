@@ -1,0 +1,17 @@
+.catalog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.catalog-title {
+  text-align: center;
+  color: #2e7d32;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+

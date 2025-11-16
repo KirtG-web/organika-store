@@ -25,15 +25,14 @@ export default function Product({ product }) {
           <button onClick={decrement} className="qty-btn">-</button>
           <span className="qty-value">{quantity}</span>
           <button onClick={increment} className="qty-btn">+</button>
-        </div>
+          <p className="product-total">
+  Total: ${(price * quantity).toFixed(2)}
+</p>
 
-        <p className="product-total">
-          Total: ${(price * quantity).toFixed(2)}
-        </p>
+        </div>
       </div>
     </div>
   );
 }
-
 
 
